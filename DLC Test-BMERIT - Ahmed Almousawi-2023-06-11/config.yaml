@@ -14,10 +14,13 @@ video_sets:
   C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\Videos\HeartBaseline.mp4:
     crop: 0, 1200, 0, 1200
 bodyparts:
-- bodypart1
-- bodypart2
-- bodypart3
-- objectA
+- apex
+- LAinterface
+- LV-1/3
+- LV-2/3
+- RAinterface
+- RV-1/3
+- RV-2/3
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
@@ -32,7 +35,7 @@ skeleton:
   - bodypart2
 - - objectA
   - bodypart3
-skeleton_color: black
+skeleton_color: green
 pcutoff: 0.6
 dotsize: 12
 alphavalue: 0.7
