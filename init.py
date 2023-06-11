@@ -9,7 +9,8 @@ for i in enumerate(videolist):
 print(videolist)
 
 config_path = 'C:\\Users\\ahmed\\Desktop\\HeartValidation--DeepLabCut\\DLC Test-BMERIT - Ahmed Almousawi-2023-06-11\\config.yaml'
-if os.path.exists("DLC Test-BMERIT - Ahmed Almousawi-2023-06-04") == False:
+if os.path.exists('DLC Test-BMERIT - Ahmed Almousawi-2023-06-11') == False:
     config_path = deeplabcut.create_new_project('DLC Test', 'BMERIT - Ahmed Almousawi', videolist, working_directory=cwd, copy_videos=False, multianimal=False)
 
-deeplabcut.extract_frames(config_path, 'manual')
+deeplabcut.extract_frames(config_path, mode='automatic', algo='kmeans', userfeedback=False)
+
