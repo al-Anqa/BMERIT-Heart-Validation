@@ -1,26 +1,23 @@
     # Project definitions (do not edit)
 Task: DLC Test
 scorer: BMERIT - Ahmed Almousawi
-date: Jun4
+date: Jun11
 multianimalproject: false
 identity:
 
     # Project path (change when moving around)
 project_path: C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\DLC Test-BMERIT -
-  Ahmed Almousawi-2023-06-04
+  Ahmed Almousawi-2023-06-11
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
   C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\Videos\HeartBaseline.mp4:
     crop: 0, 1200, 0, 1200
 bodyparts:
-- apex
-- LAinterface
-- LV-1/3
-- LV-2/3
-- RAinterface
-- RV-1/3
-- RV-2/3
+- bodypart1
+- bodypart2
+- bodypart3
+- objectA
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
@@ -37,7 +34,7 @@ skeleton_color: black
 pcutoff: 0.6
 dotsize: 12
 alphavalue: 0.7
-colormap: binary
+colormap: rainbow
 
     # Training,Evaluation and Analysis configuration
 TrainingFraction:
