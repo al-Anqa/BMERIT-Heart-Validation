@@ -6,7 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\DLC Test-BMERIT -
+project_path: C:/Users/Ahmed/Desktop/HeartValidation--DeepLabCut/DLC Test-BMERIT -
   Ahmed Almousawi-2023-06-11
 
     # Annotation data set configuration (and individual video cropping parameters)
@@ -29,16 +29,38 @@ bodyparts:
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
 stop: 1
 numframes2pick: 20
 
     # Plotting configuration
 skeleton:
-- - bodypart1
-  - bodypart2
-- - objectA
-  - bodypart3
+- - apex
+  - LAinterface
+- - LAinterface
+  - LV-1/3
+- - apex
+  - RAinterface
+- - apex
+  - LV-2/3
+- - LAinterface
+  - RAinterface
+- - apex
+  - RV-2/3
+- - LV-1/3
+  - LV-2/3
+- - RAinterface
+  - RV-1/3
+- - RV-1/3
+  - RV-2/3
 skeleton_color: green
 pcutoff: 0.6
 dotsize: 12
