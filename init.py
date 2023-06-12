@@ -17,4 +17,3 @@ if os.path.exists('DLC Test-BMERIT - Ahmed Almousawi-2023-06-11') == False:
 
 # This lets you check the points before doing anything major
 # deeplabcut.check_labels(config_path, visualizeindividuals=True)
-
