@@ -6,7 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:/Users/Ahmed/Desktop/HeartValidation--DeepLabCut/DLC Test-BMERIT -
+project_path: C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\DLC Test-BMERIT -
   Ahmed Almousawi-2023-06-11
 
     # Annotation data set configuration (and individual video cropping parameters)
@@ -21,6 +21,8 @@ bodyparts:
 - RAinterface
 - RV-1/3
 - RV-2/3
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
