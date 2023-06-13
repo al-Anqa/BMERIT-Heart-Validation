@@ -10,4 +10,4 @@ Get FFMPEG [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7
 
 To download the repo, you might need to enable github's longer paths. Do so with the following command:
 
-'git config --global core.longpaths true'
+`git config --global core.longpaths true`
