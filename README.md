@@ -5,5 +5,9 @@ Created as part of the Biomedical Engineering Research and Innovation Team (BMER
 
 ## Notes
 
-If using labeled-vid.py with the parameter save_frames = True, you ill need to install FFMPEG manually and insert the .exe into your venv.
-Get FFMPEG here: https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z
+If using labeled-vid.py with the parameter save_frames = True, you will need to install FFMPEG manually and insert the .exe into your venv.
+Get FFMPEG [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z)! 
+
+To download the repo, you might need to enable github's longer paths. Do so with the following command:
+
+`git config --global core.longpaths true`
