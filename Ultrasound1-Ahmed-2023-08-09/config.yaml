@@ -42,7 +42,7 @@ numframes2pick: 20
     # Plotting configuration
 skeleton:
 
-skeleton_color: black
+skeleton_color: green
 pcutoff: 0.6
 dotsize: 12
 alphavalue: 0.7
