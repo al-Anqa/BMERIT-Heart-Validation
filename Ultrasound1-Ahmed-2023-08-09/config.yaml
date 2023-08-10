@@ -13,10 +13,16 @@ video_sets:
   C:\Users\Ahmed\Desktop\HeartValidation--DeepLabCut\Ultrasound1-Ahmed-2023-08-09\videos\HeartUltrasound.mp4:
     crop: 180, 441, 127, 436
 bodyparts:
-- bodypart1
-- bodypart2
-- bodypart3
-- objectA
+- base
+- apex
+- valve-intersect
+- LALV-interface
+- LV-1/2
+- LA-1/2
+- RA-RVinterface
+- RV-1/2
+- RA-1/2
+
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
@@ -35,10 +41,7 @@ numframes2pick: 20
 
     # Plotting configuration
 skeleton:
-- - bodypart1
-  - bodypart2
-- - objectA
-  - bodypart3
+
 skeleton_color: black
 pcutoff: 0.6
 dotsize: 12
