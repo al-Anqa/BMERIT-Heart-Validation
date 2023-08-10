@@ -1,0 +1,216 @@
+2023-08-09 22:59:43 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['base',
+                      'apex',
+                      'valve-intersect',
+                      'LALV-interface',
+                      'LV-1/2',
+                      'LA-1/2',
+                      'RA-RVinterface',
+                      'RV-1/2',
+                      'RA-1/2'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Ultrasound1Aug9\\Ultrasound1_Ahmed95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'c:\\Users\\Ahmed\\Desktop\\HeartValidation--DeepLabCut\\.venv\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Ultrasound1Aug9\\Documentation_data-Ultrasound1_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:/Users/Ahmed/Desktop/HeartValidation--DeepLabCut/Ultrasound1-Ahmed-2023-08-09',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\Ahmed\\Desktop\\HeartValidation--DeepLabCut\\Ultrasound1-Ahmed-2023-08-09\\dlc-models\\iteration-0\\Ultrasound1Aug9-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-08-09 23:00:37 iteration: 1000 loss: 0.0389 lr: 0.005
+2023-08-09 23:01:13 iteration: 2000 loss: 0.0210 lr: 0.005
+2023-08-09 23:01:46 iteration: 3000 loss: 0.0178 lr: 0.005
+2023-08-09 23:02:20 iteration: 4000 loss: 0.0155 lr: 0.005
+2023-08-09 23:02:54 iteration: 5000 loss: 0.0142 lr: 0.005
+2023-08-09 23:03:29 iteration: 6000 loss: 0.0132 lr: 0.005
+2023-08-09 23:04:04 iteration: 7000 loss: 0.0120 lr: 0.005
+2023-08-09 23:04:38 iteration: 8000 loss: 0.0115 lr: 0.005
+2023-08-09 23:05:13 iteration: 9000 loss: 0.0108 lr: 0.005
+2023-08-09 23:05:47 iteration: 10000 loss: 0.0101 lr: 0.005
+2023-08-09 23:06:21 iteration: 11000 loss: 0.0132 lr: 0.02
+2023-08-09 23:06:55 iteration: 12000 loss: 0.0111 lr: 0.02
+2023-08-09 23:07:30 iteration: 13000 loss: 0.0098 lr: 0.02
+2023-08-09 23:08:04 iteration: 14000 loss: 0.0091 lr: 0.02
+2023-08-09 23:08:38 iteration: 15000 loss: 0.0085 lr: 0.02
+2023-08-09 23:09:16 iteration: 16000 loss: 0.0079 lr: 0.02
+2023-08-09 23:09:50 iteration: 17000 loss: 0.0077 lr: 0.02
+2023-08-09 23:10:24 iteration: 18000 loss: 0.0073 lr: 0.02
+2023-08-09 23:10:59 iteration: 19000 loss: 0.0069 lr: 0.02
+2023-08-09 23:11:34 iteration: 20000 loss: 0.0068 lr: 0.02
+2023-08-09 23:12:08 iteration: 21000 loss: 0.0068 lr: 0.02
+2023-08-09 23:12:43 iteration: 22000 loss: 0.0065 lr: 0.02
+2023-08-09 23:13:17 iteration: 23000 loss: 0.0063 lr: 0.02
+2023-08-09 23:13:53 iteration: 24000 loss: 0.0062 lr: 0.02
+2023-08-09 23:14:27 iteration: 25000 loss: 0.0060 lr: 0.02
+2023-08-09 23:15:02 iteration: 26000 loss: 0.0057 lr: 0.02
+2023-08-09 23:15:37 iteration: 27000 loss: 0.0056 lr: 0.02
+2023-08-09 23:16:12 iteration: 28000 loss: 0.0055 lr: 0.02
+2023-08-09 23:16:48 iteration: 29000 loss: 0.0055 lr: 0.02
+2023-08-09 23:17:22 iteration: 30000 loss: 0.0054 lr: 0.02
+2023-08-09 23:17:57 iteration: 31000 loss: 0.0052 lr: 0.02
+2023-08-09 23:18:31 iteration: 32000 loss: 0.0052 lr: 0.02
+2023-08-09 23:19:05 iteration: 33000 loss: 0.0053 lr: 0.02
+2023-08-09 23:19:39 iteration: 34000 loss: 0.0050 lr: 0.02
+2023-08-09 23:20:13 iteration: 35000 loss: 0.0052 lr: 0.02
+2023-08-09 23:20:47 iteration: 36000 loss: 0.0051 lr: 0.02
+2023-08-09 23:21:22 iteration: 37000 loss: 0.0050 lr: 0.02
+2023-08-09 23:21:56 iteration: 38000 loss: 0.0049 lr: 0.02
+2023-08-09 23:22:30 iteration: 39000 loss: 0.0048 lr: 0.02
+2023-08-09 23:23:04 iteration: 40000 loss: 0.0048 lr: 0.02
+2023-08-09 23:23:38 iteration: 41000 loss: 0.0046 lr: 0.02
+2023-08-09 23:24:12 iteration: 42000 loss: 0.0046 lr: 0.02
+2023-08-09 23:24:46 iteration: 43000 loss: 0.0045 lr: 0.02
+2023-08-09 23:25:20 iteration: 44000 loss: 0.0046 lr: 0.02
+2023-08-09 23:25:55 iteration: 45000 loss: 0.0046 lr: 0.02
+2023-08-09 23:26:29 iteration: 46000 loss: 0.0044 lr: 0.02
+2023-08-09 23:27:03 iteration: 47000 loss: 0.0044 lr: 0.02
+2023-08-09 23:27:36 iteration: 48000 loss: 0.0043 lr: 0.02
+2023-08-09 23:28:12 iteration: 49000 loss: 0.0044 lr: 0.02
+2023-08-09 23:28:46 iteration: 50000 loss: 0.0043 lr: 0.02
+2023-08-09 23:29:21 iteration: 51000 loss: 0.0042 lr: 0.02
+2023-08-09 23:29:55 iteration: 52000 loss: 0.0043 lr: 0.02
+2023-08-09 23:30:29 iteration: 53000 loss: 0.0043 lr: 0.02
+2023-08-09 23:31:03 iteration: 54000 loss: 0.0041 lr: 0.02
+2023-08-09 23:31:37 iteration: 55000 loss: 0.0041 lr: 0.02
+2023-08-09 23:32:10 iteration: 56000 loss: 0.0041 lr: 0.02
+2023-08-09 23:32:44 iteration: 57000 loss: 0.0040 lr: 0.02
+2023-08-09 23:33:18 iteration: 58000 loss: 0.0041 lr: 0.02
+2023-08-09 23:33:51 iteration: 59000 loss: 0.0041 lr: 0.02
+2023-08-09 23:34:25 iteration: 60000 loss: 0.0041 lr: 0.02
+2023-08-09 23:34:59 iteration: 61000 loss: 0.0041 lr: 0.02
+2023-08-09 23:35:32 iteration: 62000 loss: 0.0040 lr: 0.02
+2023-08-09 23:36:06 iteration: 63000 loss: 0.0040 lr: 0.02
+2023-08-09 23:36:39 iteration: 64000 loss: 0.0040 lr: 0.02
+2023-08-09 23:37:13 iteration: 65000 loss: 0.0040 lr: 0.02
+2023-08-09 23:37:48 iteration: 66000 loss: 0.0039 lr: 0.02
+2023-08-09 23:38:21 iteration: 67000 loss: 0.0039 lr: 0.02
+2023-08-09 23:38:55 iteration: 68000 loss: 0.0039 lr: 0.02
+2023-08-09 23:39:28 iteration: 69000 loss: 0.0038 lr: 0.02
+2023-08-09 23:40:02 iteration: 70000 loss: 0.0039 lr: 0.02
+2023-08-09 23:40:36 iteration: 71000 loss: 0.0038 lr: 0.02
+2023-08-09 23:41:09 iteration: 72000 loss: 0.0037 lr: 0.02
+2023-08-09 23:41:43 iteration: 73000 loss: 0.0038 lr: 0.02
+2023-08-09 23:42:16 iteration: 74000 loss: 0.0039 lr: 0.02
+2023-08-09 23:42:51 iteration: 75000 loss: 0.0038 lr: 0.02
+2023-08-09 23:43:25 iteration: 76000 loss: 0.0037 lr: 0.02
+2023-08-09 23:43:58 iteration: 77000 loss: 0.0037 lr: 0.02
+2023-08-09 23:44:34 iteration: 78000 loss: 0.0037 lr: 0.02
+2023-08-09 23:45:08 iteration: 79000 loss: 0.0036 lr: 0.02
+2023-08-09 23:45:42 iteration: 80000 loss: 0.0037 lr: 0.02
+2023-08-09 23:46:16 iteration: 81000 loss: 0.0037 lr: 0.02
+2023-08-09 23:46:50 iteration: 82000 loss: 0.0037 lr: 0.02
+2023-08-09 23:47:24 iteration: 83000 loss: 0.0036 lr: 0.02
+2023-08-09 23:47:58 iteration: 84000 loss: 0.0036 lr: 0.02
+2023-08-09 23:48:32 iteration: 85000 loss: 0.0037 lr: 0.02
+2023-08-09 23:49:07 iteration: 86000 loss: 0.0035 lr: 0.02
+2023-08-09 23:49:41 iteration: 87000 loss: 0.0036 lr: 0.02
+2023-08-09 23:50:15 iteration: 88000 loss: 0.0035 lr: 0.02
+2023-08-09 23:50:49 iteration: 89000 loss: 0.0036 lr: 0.02
+2023-08-09 23:51:23 iteration: 90000 loss: 0.0035 lr: 0.02
+2023-08-09 23:51:59 iteration: 91000 loss: 0.0036 lr: 0.02
+2023-08-09 23:52:33 iteration: 92000 loss: 0.0035 lr: 0.02
+2023-08-09 23:53:07 iteration: 93000 loss: 0.0037 lr: 0.02
+2023-08-09 23:53:43 iteration: 94000 loss: 0.0036 lr: 0.02
+2023-08-09 23:54:19 iteration: 95000 loss: 0.0034 lr: 0.02
+2023-08-09 23:54:52 iteration: 96000 loss: 0.0035 lr: 0.02
+2023-08-09 23:55:26 iteration: 97000 loss: 0.0035 lr: 0.02
+2023-08-09 23:56:00 iteration: 98000 loss: 0.0036 lr: 0.02
+2023-08-09 23:56:34 iteration: 99000 loss: 0.0034 lr: 0.02
+2023-08-09 23:57:08 iteration: 100000 loss: 0.0035 lr: 0.02
+2023-08-09 23:57:56 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['base',
+                      'apex',
+                      'valve-intersect',
+                      'LALV-interface',
+                      'LV-1/2',
+                      'LA-1/2',
+                      'RA-RVinterface',
+                      'RV-1/2',
+                      'RA-1/2'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Ultrasound1Aug9\\Ultrasound1_Ahmed95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'c:\\Users\\Ahmed\\Desktop\\HeartValidation--DeepLabCut\\.venv\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\Ahmed\\Desktop\\HeartValidation--DeepLabCut\\Ultrasound1-Ahmed-2023-08-09\\dlc-models\\iteration-0\\Ultrasound1Aug9-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

@@ -6,12 +6,12 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\Ahmed\Desktop\HeartValidation--DeepLabCut\Ultrasound1-Ahmed-2023-08-09
+project_path: C:/Users/Ahmed/Desktop/HeartValidation--DeepLabCut/Ultrasound1-Ahmed-2023-08-09
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
   C:\Users\Ahmed\Desktop\HeartValidation--DeepLabCut\Ultrasound1-Ahmed-2023-08-09\videos\HeartUltrasound.mp4:
-    crop: 180, 441, 127, 436
+    crop: 159, 448, 85, 432
 bodyparts:
 - base
 - apex
@@ -35,13 +35,44 @@ bodyparts:
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
 stop: 1
 numframes2pick: 20
 
     # Plotting configuration
 skeleton:
-
+- - apex
+  - valve-intersect
+- - LALV-interface
+  - LV-1/2
+- - RA-RVinterface
+  - RA-1/2
+- - apex
+  - LV-1/2
+- - valve-intersect
+  - LALV-interface
+- - RA-RVinterface
+  - RV-1/2
+- - apex
+  - RV-1/2
+- - base
+  - valve-intersect
+- - valve-intersect
+  - RA-RVinterface
+- - base
+  - LA-1/2
+- - base
+  - RA-1/2
+- - LALV-interface
+  - LA-1/2
 skeleton_color: green
 pcutoff: 0.6
 dotsize: 12
