@@ -6,17 +6,20 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\UltrasoundBalloon-Ahmed-2023-08-21
+project_path: 
+  C:/Users/ahmed/Desktop/HeartValidation--DeepLabCut/UltrasoundBalloon-Ahmed-2023-08-21
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\UltrasoundBalloon-Ahmed-2023-08-21\videos\BalloonUltrasound.mov:
+  C:\Users\ahmed\Desktop\HeartValidation--DeepLabCut\UltrasoundBalloon-Ahmed-2023-08-21\videos\BalloonUltrasound.mp4:
     crop: 0, 1920, 0, 1080
 bodyparts:
 - bodypart1
 - bodypart2
 - bodypart3
 - objectA
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
