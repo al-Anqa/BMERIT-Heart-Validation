@@ -37,17 +37,41 @@ bodyparts:
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
 stop: 1
 numframes2pick: 20
 
     # Plotting configuration
 skeleton:
-- - bodypart1
-  - bodypart2
-- - objectA
-  - bodypart3
-skeleton_color: black
+- - apex
+  - RV-1/2
+- - base-L
+  - base-R
+- - apex
+  - LV-1/2
+- - LALV-interface
+  - LV-1/2
+- - base-L
+  - LA-1/2
+- - LA-1/2
+  - RA-1/2
+- - RA-RVinterface
+  - RA-1/2
+- - apex
+  - LALV-interface
+- - apex
+  - RA-RVinterface
+- - RA-RVinterface
+  - RV-1/2
+- - LALV-interface
+  - RA-RVinterface
+- - LALV-interface
+  - LA-1/2
+- - base-R
+  - RA-1/2
+skeleton_color: green
 pcutoff: 0.6
 dotsize: 12
 alphavalue: 0.7
